@@ -1,0 +1,28 @@
+{
+    "name": "wjminions/omnipay-p-gold",
+    "type": "library",
+    "description": "PGold driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "p-gold gateway service",
+        "merchant",
+        "p-gold",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/wjminions/omnipay-p-gold",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wjminions",
+            "homepage": "https://github.com/wjminions/omnipay-p-gold"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\PGold\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
