@@ -25,7 +25,7 @@ class ImitatePurchaseResponse extends AbstractResponse implements RedirectRespon
 
     public function getRedirectUrl()
     {
-        return $this->data['callback_url'] . '?' . http_build_query($this->data['query_string']);
+        return $this->data['callback_url'] . '?' . $this->data['query_string'];
     }
 
     public function getRedirectMethod()
